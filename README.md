@@ -1,19 +1,19 @@
-# 🦁 Zoo Animal and Employee Tracker
+# Zoo Animal and Employee Tracker
 
 A TypeScript-based command-line application for managing zoo animals and employees using Object-Oriented Programming (OOP) principles.
 
-## 📖 Description
+## Description
 
 This application provides a comprehensive system for tracking animals and employees at a zoo. Built with TypeScript and following OOP design patterns, it demonstrates inheritance, interface implementation, and type safety. Users can add animals and staff members, view rosters, feed hungry animals, and process employee payments through an interactive CLI powered by Inquirer.js.
 
-## ✨ Features
+## Features
 
-- 🐾 **Animal Management**: Add and track different species with hunger status, weight, and population counts
-- 👥 **Employee Management**: Register ZooKeepers and ZooWorkers with unique IDs and salaries
-- 🍖 **Feeding System**: Identify and feed hungry animals
-- 💰 **Payroll System**: Process employee payments
-- 📊 **Viewing Tools**: Display comprehensive lists of animals and staff
-- 🔒 **Type Safety**: Full TypeScript implementation with interfaces and classes
+- **Animal Management**: Add and track different species with hunger status, weight, and population counts
+- **Employee Management**: Register ZooKeepers and ZooWorkers with unique IDs and salaries
+- **Feeding System**: Identify and feed hungry animals
+- **Payroll System**: Process employee payments
+- **Viewing Tools**: Display comprehensive lists of animals and staff
+- **Type Safety**: Full TypeScript implementation with interfaces and classes
 
 ## 🛠️ Technologies Used
 
@@ -22,7 +22,7 @@ This application provides a comprehensive system for tracking animals and employ
 - **Inquirer.js**: Interactive command-line interface
 - **ES2020 Modules**: Modern JavaScript module system
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 zoo-tracker/
@@ -49,7 +49,7 @@ zoo-tracker/
 └── README.md
 ```
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -67,7 +67,7 @@ zoo-tracker/
    npm run build
    ```
 
-## 💻 Usage
+## Usage
 
 **Run the application:**
 ```bash
@@ -95,7 +95,7 @@ npm run dev
 - `npm start` - Run the compiled application
 - `npm run dev` - Build and run in one command
 
-## 🏗️ Architecture
+## Architecture
 
 ### Interfaces
 - **Work**: Defines the contract for employee payment functionality
@@ -123,7 +123,7 @@ The Cli class manages user interaction and orchestrates all operations:
 - Feeding operations
 - Payroll processing
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 This project demonstrates:
 - ✅ TypeScript fundamentals and type safety
@@ -134,7 +134,7 @@ This project demonstrates:
 - ✅ Interactive CLI development
 - ✅ ES6+ module system
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -144,16 +144,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👤 Author
-
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built as part of a TypeScript and OOP learning module
 - Inquirer.js for the excellent CLI framework
