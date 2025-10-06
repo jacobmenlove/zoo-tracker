@@ -95,7 +95,8 @@ export class Cli {
                     answers.amount
                 );
                 this.animals.push(newAnimal);
-                console.log(`\n✅ ${answers.species} added to the zoo!\n`);
+                console.log(`\n✅ ${answers.species} added to the zoo!`);
+                console.log(`📊 Total animals in zoo: ${this.animals.length}\n`);
                 this.startCli();
             });
     }
